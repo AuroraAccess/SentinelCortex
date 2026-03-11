@@ -1,0 +1,35 @@
+# SentinelCortex: Git Exclusion Policy
+# [RCF:PROTECTED]
+
+# --- Build Artifacts ---
+bin/
+/tmp/sentinel-cortex-build/
+*.o
+*.elf
+*.bin
+*.sim
+sentinel_cortex_strict
+sentinel_cortex_sim
+
+# --- Cryptographic Secrets (CRITICAL) ---
+# NEVER push private keys to version control.
+master_private.key
+*.key
+*.pem
+*.seed
+
+# --- Signed Modules ---
+# RCF modules should be deployed via secure channels, not via Git.
+logic.rcf
+*.rcf
+
+# --- System & IDE ---
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.log
+
+# --- RCF Audit Reports ---
+RCF-AUDIT-REPORT.json
+RCF-AUDIT-LOG.txt
