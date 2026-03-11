@@ -30,6 +30,9 @@ logic.rcf
 *.swp
 *.log
 
+# --- Documentation (Sovereign Vault) ---
+docs/
+
 # --- RCF Audit Reports ---
 RCF-AUDIT-REPORT.json
 RCF-AUDIT-LOG.txt
