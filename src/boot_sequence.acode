@@ -1,4 +1,5 @@
 module aurora_boot {
+    # [RCF:SOLDERED] — Логика начальной загрузки
     lume.voice message="Aurora Access dOS Initializing..."
     purity.verify mode="paranoid_scan"
     identity.gen prefix="NODE_ID"
