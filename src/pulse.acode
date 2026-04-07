@@ -1,10 +1,10 @@
 module sentinel_pulse {
-    # [RCF:GUARD] — Суверенный Пульс Авроры
-    # Этот скрипт отслеживает целостность ядра каждую секунду.
+    # [RCF:GUARD] — Глубокая PQC-защита Авроры
+    # Инициализация квантовой крипто-проверки ядра
     
-    lume.voice message="[SENTINEL] Pulse: ACTIVE. Integrity: VERIFIED."
+    pqc.verify mode="dilithium2"
     
-    # Резерв для будущих проверок памяти
+    lume.voice message="Sentinel Monitoring: ACTIVE. All systems stable."
     
     halt
 }
