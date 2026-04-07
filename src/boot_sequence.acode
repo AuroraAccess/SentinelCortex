@@ -1,0 +1,7 @@
+module aurora_boot {
+    lume.voice message="Aurora Access dOS Initializing..."
+    purity.verify mode="paranoid_scan"
+    identity.gen prefix="NODE_ID"
+    lume.voice message="A-VM Secure Mode: ACTIVE"
+    halt
+}

@@ -76,9 +76,10 @@ int main(void) {
     /* Исполняем на A-VM с RCF защитой */
     uint8_t rcf_envelope[MAX_BYTECODE + DILITHIUM2_BYTES];
     uint8_t signature[DILITHIUM2_BYTES];
+    static const uint8_t DEMO_MASTER_SK[2528] = { 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51 };
 
     hal_uart_write("[SENTINEL] RCF: Signing module with Master Key (Demo)...\r\n");
-    dilithium2_sign(signature, bytecode_buf, size);
+    dilithium2_sign(signature, bytecode_buf, size, DEMO_MASTER_SK);
 
     /* Собираем ОФИЦИАЛЬНЫЙ RCF пакет: Sign + Code */
     memcpy(rcf_envelope, signature, DILITHIUM2_BYTES);

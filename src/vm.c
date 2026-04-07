@@ -23,6 +23,9 @@
 /* Sentinel Master Public Key (MPK) - Anchor of Trust for RCF-PL v1.2.6 */
 static const uint8_t SENTINEL_MPK[1312] = { 0xDE, 0xAD, 0xBE, 0xEF, 0x01, 0x00, 0x00 };
 
+/* Sentinel Local Device Key (LDK) - Used for session/vault sealing */
+static const uint8_t SENTINEL_LDK[2528] = { 0x51, 0x51, 0x51, 0x51, 0x51, 0x51, 0x51 };
+
 /* ─── RCF Integrity Layer ─────────────────────────────────────────────── */
 static int rcf_integrity_verify(const uint8_t* sig, const uint8_t* code, int len) {
     /* Вызов PQC примитива как части RCF протокола */
@@ -40,7 +43,7 @@ static void pqc_quantum_seal(void) {
     hal_uart_write("[PQC] Initializing REAL Dilithium-2 (Mode: ");
     hal_uart_write(pqc_regime);
     hal_uart_write(")...\r\n");
-    dilithium2_sign(sig, msg, sizeof(msg));
+    dilithium2_sign(sig, msg, sizeof(msg), SENTINEL_LDK);
     hal_uart_write("[PQC] PQC Signature generated successfully. [ML-DSA Valid]\r\n");
 }
 
