@@ -44,20 +44,7 @@
 
 ---
 
-## 🛠️ Build & Flash
 
-```bash
-# Install cross-compiler (macOS)
-brew install arm-none-eabi-gcc
-
-# Build for STM32F4
-make TARGET=stm32f4
-
-# Flash to device (requires OpenOCD)
-make flash
-```
-
----
 
 ## 📜 License
 Protected under **RCF-PL v1.2.6** — `[RCF:RESTRICTED]`
