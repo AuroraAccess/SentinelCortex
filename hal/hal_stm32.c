@@ -1,6 +1,5 @@
-/*
- * NOTICE: This file is protected under RCF-PL v1.2.6
- * [RCF:RESTRICTED]
+/* NOTICE: This file is protected under RCF-PL v1.3
+ * [RCF:PROTECTED]
  *
  * hal_stm32.c — Реализация HAL для STM32 (Cortex-M3/M4)
  *

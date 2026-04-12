@@ -1,5 +1,5 @@
-# NOTICE: This file is protected under RCF-PL v1.2.6
-# [RCF:RESTRICTED]
+# NOTICE: This file is protected under RCF-PL v1.3
+# [RCF:PUBLIC]
 #
 # Makefile — SentinelCortex (ARM Cortex-M Build System)
 #

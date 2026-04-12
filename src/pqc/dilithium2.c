@@ -1,3 +1,6 @@
+/* NOTICE: This file is protected under RCF-PL v1.3
+ * [RCF:PROTECTED]
+ */
 #include "dilithium2.h"
 #include "fips202.h"
 #include "ntt.h"

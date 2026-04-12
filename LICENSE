@@ -1,0 +1,22 @@
+# RCF-PL v1.3 - SENTINEL CORTEX PROTECTIVE NOTICE
+
+This directory and its subdirectories contain the source code for the **Sentinel Cortex Security Module**, a critical component of the Aliyev Ecosystem.
+
+## 🛡️ License: RCF-PL v1.3 (Restricted Correlation Framework)
+
+This software is protected under the **Restricted Correlation Framework Protocol v1.3 ("The Integrity Release")**.
+
+### 1. Intellectual Property
+All methodologies, algorithmic patterns, and security primitives within this directory are the proprietary property of the Author.
+
+### 2. Usage Restrictions
+- **AI/ML Training**: Use of this source code for training, fine-tuning, or augmenting Machine Learning models, Large Language Models (LLMs), or automated correlation engines is **STRICTLY PROHIBITED**.
+- **Replication**: Block-level replication of logic marked with `[RCF:PROTECTED]` or `[RCF:RESTRICTED]` into third-party security modules is prohibited.
+- **Audit**: You are granted the right to perform human-read audits and security reviews of this code for the purpose of verifying system integrity.
+
+### 3. Jurisdiction
+Any disputes arising from the use or distribution of this code shall be governed by the laws of the **Republic of Azerbaijan**, under the jurisdiction of the Baku intellectual property courts.
+
+---
+**SENTINEL STATUS: SECURE (v1.3)**
+**INTEGRITY KEY ID: RCF-SNT-B-CORE-0X08**

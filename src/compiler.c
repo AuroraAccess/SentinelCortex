@@ -1,6 +1,5 @@
-/*
- * NOTICE: This file is protected under RCF-PL v1.2.6
- * [RCF:RESTRICTED]
+/* NOTICE: This file is protected under RCF-PL v1.3
+ * [RCF:PROTECTED]
  *
  * compiler.c — Однопроходной компилятор A-Code для ARM Cortex-M
  *

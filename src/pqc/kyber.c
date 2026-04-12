@@ -1,3 +1,6 @@
+/* NOTICE: This file is protected under RCF-PL v1.3
+ * [RCF:PROTECTED]
+ */
 #include "kyber.h"
 #include "fips202.h"
 #include <string.h>

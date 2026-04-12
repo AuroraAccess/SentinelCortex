@@ -1,6 +1,5 @@
-/*
- * NOTICE: This file is protected under RCF-PL v1.2.6
- * [RCF:RESTRICTED]
+/* NOTICE: This file is protected under RCF-PL v1.3
+ * [RCF:PUBLIC]
  *
  * opcode.h — Sentinel A-Code OpCode таблица (Cortex-M edition)
  * Идентична AuroraSentinel/src/opcode.h — A-Code кросс-платформенен

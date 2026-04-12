@@ -1,6 +1,5 @@
-/*
- * NOTICE: This file is protected under RCF-PL v1.2.6
- * [RCF:RESTRICTED]
+/* NOTICE: This file is protected under RCF-PL v1.3
+ * [RCF:PROTECTED]
  *
  * vm.c — Aurora Sentinel VM для ARM Cortex-M
  *
@@ -20,7 +19,7 @@
 #include "pqc/kyber.h"
 
 /* ─── RCF Security Parameters ─────────────────────────────────────────── */
-/* Sentinel Master Public Key (MPK) - Anchor of Trust for RCF-PL v1.2.6 */
+/* Sentinel Master Public Key (MPK) - Anchor of Trust for RCF-PL v1.3 */
 static const uint8_t SENTINEL_MPK[1312] = { 0xDE, 0xAD, 0xBE, 0xEF, 0x01, 0x00, 0x00 };
 
 /* Sentinel Local Device Key (LDK) - Used for session/vault sealing */

@@ -1,6 +1,5 @@
-/*
- * NOTICE: This file is protected under RCF-PL v1.2.6
- * [RCF:RESTRICTED]
+/* NOTICE: This file is protected under RCF-PL v1.3
+ * [RCF:PROTECTED]
  *
  * main.c — SentinelCortex точка входа
  *
@@ -47,7 +46,7 @@ int main(void) {
     hal_uart_write("  ======================================\r\n");
     hal_uart_write("  *** AURORA SENTINEL CORTEX v1.0  ***\r\n");
     hal_uart_write("  *** Bare-Metal · ARM Cortex-M    ***\r\n");
-    hal_uart_write("  *** RCF-PL v1.2.6 [RESTRICTED]  ***\r\n");
+    hal_uart_write("  *** RCF-PL v1.3 [PROTECTED]      ***\r\n");
     hal_uart_write("  ======================================\r\n\r\n");
 
     /* Сбрасываем статический аллокатор */

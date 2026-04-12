@@ -1,3 +1,6 @@
+/* NOTICE: This file is protected under RCF-PL v1.3
+ * [RCF:PROTECTED]
+ */
 #include "ntt.h"
 
 static const int32_t zetas[256] = {

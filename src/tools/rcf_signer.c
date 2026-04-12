@@ -1,3 +1,6 @@
+/* NOTICE: This file is protected under RCF-PL v1.3
+ * [RCF:PROTECTED]
+ */
 #include <stdio.h>
 #include <stdint.h>
 #include <stdlib.h>
@@ -16,8 +19,8 @@ void hal_uart_write_hex(uint8_t b) {
 int main(int argc, char** argv) {
     if (argc < 2 || strcmp(argv[1], "--help") == 0 || strcmp(argv[1], "-h") == 0) {
         printf("==================================================\n");
-        printf("  SentinelCortex RCF Signer Utility v1.1 (Native)\n");
-        printf("  Protected under RCF-PL v1.2.6 [RCF:RESTRICTED]\n");
+        printf("  SentinelCortex RCF Signer Utility v1.3 (Native)\n");
+        printf("  Protected under RCF-PL v1.3 [RCF:PROTECTED]\n");
         printf("==================================================\n\n");
         printf("Usage:\n");
         printf("  %s keygen             - Generate Master PQC Keypair\n", argv[0]);
@@ -29,7 +32,7 @@ int main(int argc, char** argv) {
     const char* mode = argv[1];
 
     if (strcmp(mode, "--version") == 0) {
-        printf("RCF-Signer v1.1 (Build: arm64-apple-darwin)\n");
+        printf("RCF-Signer v1.3 (Build: arm64-apple-darwin)\n");
         return 0;
     }
 

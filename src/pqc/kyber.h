@@ -1,3 +1,6 @@
+/* NOTICE: This file is protected under RCF-PL v1.3
+ * [RCF:PUBLIC]
+ */
 #ifndef KYBER_H
 #define KYBER_H
 
