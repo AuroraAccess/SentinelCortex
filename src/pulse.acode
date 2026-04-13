@@ -1,10 +1,6 @@
 module sentinel_pulse {
-    # [RCF:GUARD] — Глубокая PQC-защита Авроры
-    # Инициализация квантовой крипто-проверки ядра
-    
+    # [RCF:GUARD] - Deep PQC Protection
     pqc.verify mode="dilithium2"
-    
     lume.voice message="Sentinel Monitoring: ACTIVE. All systems stable."
-    
     halt
 }
