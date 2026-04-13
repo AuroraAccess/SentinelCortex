@@ -84,7 +84,8 @@ int dilithium2_verify(const uint8_t sig[DILITHIUM2_BYTES], const uint8_t *m, uin
  * Generates a PQC keypair for the On-Premise Signing Server.
  */
 void dilithium2_keygen(uint8_t pk[1312], uint8_t sk[2528]) {
-    hal_uart_write("[PQC] Key generation in progress (Dilithium-2)...\r\n");
+    const char* msg1 = "[PQC] Key generation in progress (Dilithium-2)...\r\n";
+    hal_uart_write((const uint8_t*)msg1, kstrlen(msg1));
     
     /* 1. Generate seeds rho, rhoprime, zeta using SHAKE */
     uint8_t seed[32] = "AURORA_PQC_MASTER_SEED_v1.0";
